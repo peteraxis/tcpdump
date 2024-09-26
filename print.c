@@ -75,6 +75,7 @@ static const struct printer printers[] = {
 #endif
 #ifdef DLT_DSA_TAG_DSA
 	{ dsa_if_print,		DLT_DSA_TAG_DSA },
+	{ edsa_gsw1xx_if_print,		DLT_DSA_TAG_GSW1XX },
 #endif
 #ifdef DLT_DSA_TAG_EDSA
 	{ edsa_if_print,	DLT_DSA_TAG_EDSA },
